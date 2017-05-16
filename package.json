@@ -1,0 +1,8 @@
+{
+  "name": "create-docker",
+  "version": "0.1.0",
+  "description": "Tool to quickly create a Dockerfile for Node.js projects",
+  "main": "index.js",
+  "author": "Patrick Smith <patrick@burntcaramel.com>",
+  "license": "MIT"
+}
