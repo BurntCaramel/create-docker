@@ -4,5 +4,12 @@
   "description": "Tool to quickly create a Dockerfile for Node.js projects",
   "main": "index.js",
   "author": "Patrick Smith <patrick@burntcaramel.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "create-docker": "./index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^3.0.1",
+    "yargs": "^8.0.1"
+  }
 }
